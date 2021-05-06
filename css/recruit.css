@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.top {
+    background: url("../img/work2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.message p {
+    margin-top: 50px;
+    line-height: 2.5;
+}
+
+
+.internship .linker{
+    margin-top: 48px;
+}
+
+.job_description ul span {
+    width: 50px;
+}
+
+.job_description ul span::after {
+    content: "：";
+}
+
+table {
+    width: 50%;
+    margin: 50px auto;
+}
+
+td {
+    padding:0 0 30px 40px;
+}
+
+.job_description .linker {
+    margin: 50px auto;
+}

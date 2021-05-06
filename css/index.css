@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.top {
+    background: url("../img/top.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* news_list------ */
+
+.news_list {
+    width: 80%;
+    margin: 50px auto 30px auto;
+    line-height: 3.8;
+}
+
+.news_list li {
+    border-bottom: #00A3E9 1px dotted;
+}
+
+.news_list li:last-child {
+    border-style: none;
+}
+
+.news_list span {
+    margin: 0 100px 0 80px;
+}
+
+.news p {
+    text-align: right;
+}
+
+.news p a {
+    color: #00A3E9;
+}
+
+.recruit .linker {
+    margin-top: 50px;
+}
+
+.company .linker {
+    margin-top: 55px;
+}
+
+.contact .linker {
+    margin-top: 45px;
+}

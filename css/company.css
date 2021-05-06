@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+section p {
+    line-height: 2.2;
+}
+
+.top {
+    background: url("../img/company.png") no-repeat center;
+    background-size: cover;
+}
+
+
+.information img{
+    margin-top: 70px;
+    height: 300px;
+}
+
+.philosophy img {
+    margin-top: 70px;
+    height: 300px;
+}

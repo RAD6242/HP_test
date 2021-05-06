@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.top {
+    background: url("../img/CONTACT.jpg") no-repeat center;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+form {
+    width: 60%;
+    margin: 50px auto;
+    line-height: 3;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: gray solid 1px;
+  width: 65%;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+}
+
+
+button {
+    display: block;
+    padding: 0 35px;
+    height: 30%;
+    font-size: 48px;
+    background-color: white;
+    color: #00A3E9;
+    border: #00A3E9 3px solid;
+    border-radius: 10px;
+    margin: 80px auto 0 auto;
+    padding: 10px 50px;
+    transition: 0.55s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #00A3E9;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
